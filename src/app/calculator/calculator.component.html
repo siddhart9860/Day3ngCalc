@@ -1,0 +1,16 @@
+<h1>Sid</h1>
+<input type="text" name="txt" id="txt" [(ngModel)]="result" />
+<hr />
+<input
+  type="button"
+  *ngFor="let number of numberButtons"
+  value="{{ number }}"
+  (click)="processValue($event)"
+/>
+<hr />
+<input
+  type="button"
+  *ngFor="let operator of operatorButtons"
+  value="{{ operator }}"
+  (click)="processValue($event)"
+/>

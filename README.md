@@ -33,7 +33,7 @@ JS object for all internal and external css
 vendor.js
 JS transpilation of all standard Angular Packages
 main.js
-The Develope transpilaed code ====================================================================== Programming with Angular IMP*** Each Component must be declaraed in 'declarations' array of NgModule
+The Develope transpilaed code ====================================================================== Programming with Angular IMP*\*\* Each Component must be declaraed in 'declarations' array of NgModule
 Binding
 Interpolation
 Read-only binding
@@ -43,7 +43,7 @@ Uses JavaScript's eval() function
 Property Binding
 HTML DOM is bound with the public datamember of component
 <input type="text" [value]="">
-[href], [checked] [disable], etc
+[href], [checked][disable], etc
 Defined iin BrowserModule
 [myval]
 Event Binding
